@@ -54,13 +54,6 @@ import RepairTable from '@/app/repairs/RepairTable';
 export default function Repairs() {
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold">Repair Prioritization Queue</h1>
-        <p className="text-muted-foreground">
-          Ranked repair actions based on risk, impact, and SLA constraints
-        </p>
-      </div>
-
       <RepairTable />
     </div>
   );
