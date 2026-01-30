@@ -59,4 +59,4 @@ def compute_location_criticality(lat, lon):
 
 
 # Example usage
-print(compute_location_criticality(18.5204, 73.8567))  # Pune, Maharashtra
+# print(compute_location_criticality(18.5204, 73.8567))  # Pune, Maharashtra
