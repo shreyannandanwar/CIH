@@ -4,7 +4,7 @@ import reverse_geocode
 def compute_usage_impact(lat, lon, asset_type):
 
     result = reverse_geocode.search([(lat, lon)])[0]
-    print(result)
+    # print(result)
     
     pop = result.get('population', 0)
     city_name = result.get('city', '').lower()
